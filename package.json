@@ -22,9 +22,9 @@
   "type": "module",
   "private": true,
   "dependencies": {
-    "@types/mapbox-gl": "^3.4.1",
+    "@types/mapbox-gl": "^3.5.0",
     "@vercel/analytics": "^2.0.1",
-    "astro": "^7.2.4",
+    "astro": "^7.2.9",
     "mapbox-gl": "^3.29.0"
   },
   "devDependencies": {
