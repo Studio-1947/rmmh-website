@@ -1,5 +1,5 @@
 ---
-// Dark Mapbox map centred on the shop. Needs PUBLIC_MAPBOX_TOKEN (see .env.example);
+// Light Mapbox map centred on the shop. Needs PUBLIC_MAPBOX_TOKEN (see .env.example);
 // without it we fall back to the Google Maps embed so the page never shows a blank box.
 import { site } from "../data/site";
 
@@ -49,7 +49,7 @@ const token = import.meta.env.PUBLIC_MAPBOX_TOKEN as string | undefined;
       const center: [number, number] = [Number(host.dataset.lng), Number(host.dataset.lat)];
       const map = new mapboxgl.Map({
         container: host,
-        style: "mapbox://styles/mapbox/dark-v11",
+        style: "mapbox://styles/mapbox/light-v11",
         center,
         zoom: 15.4,
         pitch: 45,

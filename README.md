@@ -13,9 +13,11 @@ see [Content you need to edit](#content-you-need-to-edit) below.
 
 - [Astro](https://astro.build) 7 static site generator, zero client-side JS framework
 - TypeScript (strict) for data and component props
-- Plain CSS with design tokens (`src/styles/global.css`) dark teal theme built from the brand
-  colours (`#00807A` teal, `#FFA300` orange), glass cards, circular photo medallions, and
-  reveal-on-scroll motion (respects `prefers-reduced-motion`)
+- Plain CSS with design tokens (`src/styles/global.css`) light pharmacy theme built from the brand
+  colours (`#00807A` teal, `#FFA300` amber): white paper ground with soft mint section bands, white
+  cards with hairline borders and soft shadows, circular photo medallions, and reveal-on-scroll
+  motion (respects `prefers-reduced-motion`). Amber is used for fills; `--accent-warm-text`
+  (`#a35c00`) is its readable-on-white counterpart for text and icons.
 - Google Fonts: [Outfit](https://fonts.google.com/specimen/Outfit) for Latin text, Hind for Nepali
 - ESLint (flat config) + Prettier for linting/formatting
 - Husky + lint-staged for pre-commit checks
@@ -28,7 +30,7 @@ The footer backdrop (`public/images/mirik-lake-panorama.jpg`) is currently a Wik
 by Shubh.ch1994 under CC BY-SA 4.0. The on-page credit was removed at the owner's request, so replace
 it with the shop's own photo of Mirik Lake (or restore a visible credit) before going live.
 
-The footer and contact maps use **Mapbox GL** (dark style, pulsing pin, 3D tilt) when
+The footer and contact maps use **Mapbox GL** (light style, pulsing pin, 3D tilt) when
 `PUBLIC_MAPBOX_TOKEN` is set in `.env` (copy `.env.example`; free tier is 50k loads/month). The
 Mapbox bundle is only downloaded when the map scrolls into view. Without a token the site falls back
 to a Google Maps embed, so nothing breaks.
@@ -76,7 +78,7 @@ src/
 tests/
   smoke.spec.ts   Playwright checks: page renders, nav works, links point somewhere real
 public/           Static files served as-is (favicon.svg, robots.txt)
-  images/         logo.svg, logo-light.svg (used on the dark theme), placeholder photos, hero poster
+  images/         logo.svg (used site-wide), logo-light.svg (for dark backgrounds), placeholder photos, hero poster
   videos/         hero.mp4 / hero.webm, the muted looping hero background (7s, ~500 KB each)
   videos/cta/     clip-1..7.mp4, the cross-fading montage behind the "Here when you need us" band
 ```
@@ -114,8 +116,8 @@ Everything below currently holds a sample/placeholder value. Search each file fo
   and the history timeline. Years marked
   `c.` are approximate and the events are written from the brief: confirm every date, name and
   claim with the family.
-- **`public/images/logo.svg`** the brand logo (`logo-light.svg` is the same mark recoloured for
-  the dark theme; it's used in the header and footer). `logo-mark.svg` is the peacock mark alone,
+- **`public/images/logo.svg`** the brand logo, used in the header and footer (`logo-light.svg` is
+  the same mark recoloured for dark backgrounds, kept for future use). `logo-mark.svg` is the peacock mark alone,
   animated as the opening splash in `src/components/Loader.astro`.
 
 ## Analytics
