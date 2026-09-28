@@ -34,7 +34,7 @@ const t = useT(lang);
     </div>
     <div class="grid-3">
       {
-        [...doctors, ...upcomingSlots].slice(0, 6).map((doctor, i) => (
+        [...doctors, ...upcomingSlots].map((doctor, i) => (
           <div data-reveal style={`--reveal-delay:${(i % 3) * 100}ms`}>
             <DoctorCard doctor={doctor} />
           </div>

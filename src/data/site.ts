@@ -7,9 +7,9 @@ export const site = {
   nameLocal: "राधा माधव मेडिकल हॉल",
   tagline: "Pharmacy & Health Counter",
   establishedYear: "[Sample Year]",
-  phoneDisplay: "+91 94344 31319",
+  phoneDisplay: "+91 70636 57635",
   phoneHref: "tel:+919434431319",
-  whatsappDisplay: "+91 94344 31319",
+  whatsappDisplay: "+91 70636 57635",
   whatsappHref:
     "https://wa.me/919434431319?text=Namaste%2C%20I%20have%20a%20query%20for%20Radhamadhav%20Medical%20Hall.",
   email: "hello@radhamadhavmedicalhall.sample",
