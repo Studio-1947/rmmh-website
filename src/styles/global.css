@@ -606,7 +606,7 @@ section {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  filter: saturate(0.8) brightness(1.06) contrast(0.95);
+  filter: grayscale(1) brightness(1.06) contrast(0.95);
   opacity: 0;
   animation: video-in 2s ease 600ms forwards;
 }
@@ -639,6 +639,7 @@ section {
   }
   .hero-video {
     background: url("/images/hero-poster.jpg") center / cover no-repeat;
+    filter: grayscale(1);
   }
 }
 .hero .wrap {
