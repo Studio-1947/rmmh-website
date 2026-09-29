@@ -1874,22 +1874,6 @@ footer.site nav a:hover {
     transform: scale(1);
   }
 }
-.logo-reveal .glow {
-  opacity: 0;
-  filter: blur(6px);
-  animation: glow-pulse 1.2s ease-out 1100ms forwards;
-}
-@keyframes glow-pulse {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.9;
-  }
-  100% {
-    opacity: 0.35;
-  }
-}
 .loader-inner {
   animation: splash-breathe 1.8s ease-in-out 1.2s infinite alternate;
 }
@@ -2162,10 +2146,12 @@ html:not(.loaded) .scroll-cue {
   object-fit: cover;
   object-position: center 30%;
   filter: saturate(0.8);
+  transform: scale(var(--photo-zoom, 1));
+  transform-origin: 50% 35%;
   transition: transform 1.2s var(--ease-out);
 }
 .doctor-card:hover .doctor-photo img {
-  transform: scale(1.05);
+  transform: scale(calc(var(--photo-zoom, 1) * 1.05));
 }
 .doctor-photo::after {
   content: "";
@@ -2197,6 +2183,8 @@ html:not(.loaded) .scroll-cue {
   object-fit: cover;
   object-position: center 20%;
   filter: saturate(0.85);
+  transform: scale(var(--photo-zoom, 1));
+  transform-origin: 50% 35%;
 }
 .profile-photo .profile-avatar {
   background: var(--accent-warm);

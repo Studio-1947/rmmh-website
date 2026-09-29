@@ -33,7 +33,7 @@ export const doctorVideos: DoctorVideo[] = [
     },
     platform: "none",
     src: "",
-    poster: "/images/doctor-1.jpg",
+    poster: "/images/drabul.webp",
     isPlaceholder: true,
   },
   {
@@ -50,7 +50,7 @@ export const doctorVideos: DoctorVideo[] = [
     },
     platform: "none",
     src: "",
-    poster: "/images/doctor-3.jpg",
+    poster: "/images/drrichard.webp",
     isPlaceholder: true,
   },
   {
@@ -84,7 +84,7 @@ export const doctorVideos: DoctorVideo[] = [
     },
     platform: "none",
     src: "",
-    poster: "/images/saurav-sardar.jpg",
+    poster: "/images/drsourav.webp",
     isPlaceholder: true,
   },
 ];

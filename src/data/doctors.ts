@@ -27,6 +27,8 @@ export interface Doctor {
   /** Portrait in public/images. Set `photoIsPlaceholder: false` once it's the real doctor. */
   photo: string;
   photoIsPlaceholder: boolean;
+  /** Crop in on the face when a portrait is framed too wide, e.g. 1.15. */
+  photoZoom?: number;
   /** A reserved slot on the homepage grid until a real doctor is added. Not shown on /doctors/. */
   isPlaceholder?: boolean;
 }
@@ -170,8 +172,9 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "richard-narjinary",
-    photo: "/images/doctor-3.jpg",
-    photoIsPlaceholder: true,
+    photo: "/images/drrichard.webp",
+    photoIsPlaceholder: false,
+    photoZoom: 1.15,
     fee: 600,
     name: {
       en: "Dr. Richard Narjinary",
@@ -210,8 +213,9 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "abul-bashar-laskar",
-    photo: "/images/doctor-1.jpg",
-    photoIsPlaceholder: true,
+    photo: "/images/drabul.webp",
+    photoIsPlaceholder: false,
+    photoZoom: 1.15,
     fee: 500,
     name: { en: "Dr. Abul Bashar Laskar", ne: "डा. अबुल बशर लस्कर", bn: "ডা. আবুল বাশার লস্কর" },
     specialty: GM,
@@ -341,8 +345,9 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "subhamay-das",
-    photo: "/images/doctor-subhamay-das.jpg",
-    photoIsPlaceholder: true,
+    photo: "/images/drsubhamay.webp",
+    photoIsPlaceholder: false,
+    photoZoom: 1.15,
     fee: 400,
     name: { en: "Dr. Subhamay Das", ne: "डा. शुभमय दास", bn: "ডা. শুভময় দাস" },
     specialty: GM,
@@ -476,7 +481,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "saurav-sardar",
-    photo: "/images/saurav-sardar.jpg",
+    photo: "/images/drsourav.webp",
     photoIsPlaceholder: false,
     fee: 400,
     name: { en: "Dr. Saurav Sardar", ne: "डा. सौरभ सरदार", bn: "ডা. সৌরভ সর্দার" },

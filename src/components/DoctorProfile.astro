@@ -21,6 +21,7 @@ const byDay = new Map(doctor.availability.map((a) => [a.day, a.time]));
       <img
         src={doctor.photo}
         alt={`${t("doctor.portrait")} ${name}`}
+        style={doctor.photoZoom ? `--photo-zoom: ${doctor.photoZoom}` : undefined}
         loading="lazy"
         decoding="async"
         width="600"
