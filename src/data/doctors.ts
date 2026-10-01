@@ -123,8 +123,8 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "punam-sarkar",
-    photo: "/images/doctor-punam-sarkar.jpg",
-    photoIsPlaceholder: true,
+    photo: "/images/drpunam-square.webp",
+    photoIsPlaceholder: false,
     fee: 500,
     name: { en: "Dr. Punam Sarkar", ne: "डा. पुनम सरकार", bn: "ডা. পুনম সরকার" },
     specialty: GYN,
