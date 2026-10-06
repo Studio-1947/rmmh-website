@@ -33,7 +33,7 @@ export const doctorVideos: DoctorVideo[] = [
     },
     platform: "none",
     src: "",
-    poster: "/images/drabul.webp",
+    poster: "/images/doctors/drabul.webp",
     isPlaceholder: true,
   },
   {
@@ -50,7 +50,7 @@ export const doctorVideos: DoctorVideo[] = [
     },
     platform: "none",
     src: "",
-    poster: "/images/drrichard.webp",
+    poster: "/images/doctors/drrichard.webp",
     isPlaceholder: true,
   },
   {
@@ -67,7 +67,7 @@ export const doctorVideos: DoctorVideo[] = [
     },
     platform: "none",
     src: "",
-    poster: "/images/doctor-2.jpg",
+    poster: "/images/doctors/doctor-2.webp",
     isPlaceholder: true,
   },
   {
@@ -84,7 +84,7 @@ export const doctorVideos: DoctorVideo[] = [
     },
     platform: "none",
     src: "",
-    poster: "/images/drsourav.webp",
+    poster: "/images/doctors/drsourav.webp",
     isPlaceholder: true,
   },
 ];

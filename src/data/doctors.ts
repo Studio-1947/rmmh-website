@@ -49,10 +49,10 @@ const ORTHO: L = {
   bn: "অর্থোপেডিকস ও জয়েন্ট কেয়ার",
 };
 
-const ENT: L = {
-  en: "ENT & Head/Neck",
-  ne: "ENT (कान, नाक, घाँटी)",
-  bn: "ENT (কান, নাক, গলা)",
+const GP: L = {
+  en: "General Physician",
+  ne: "सामान्य चिकित्सक",
+  bn: "সাধারণ চিকিৎসক",
 };
 
 const CARDIO: L = {
@@ -79,7 +79,7 @@ const MON_FRI_SPLIT: Availability[] = [
 export const doctors: Doctor[] = [
   {
     slug: "kangkan-das",
-    photo: "/images/doctor-kangkan-das.jpg",
+    photo: "/images/doctors/doctor-kangkan-das.webp",
     photoIsPlaceholder: true,
     fee: 400,
     name: { en: "Dr. Kangkan Das", ne: "डा. कंकन दास", bn: "ডা. কঙ্কন দাস" },
@@ -123,7 +123,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "punam-sarkar",
-    photo: "/images/drpunam-square.webp",
+    photo: "/images/doctors/drpunam-square.webp",
     photoIsPlaceholder: false,
     fee: 500,
     name: { en: "Dr. Punam Sarkar", ne: "डा. पुनम सरकार", bn: "ডা. পুনম সরকার" },
@@ -170,7 +170,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "richard-narjinary",
-    photo: "/images/drrichard-square.webp",
+    photo: "/images/doctors/drrichard-square.webp",
     photoIsPlaceholder: false,
     fee: 600,
     name: {
@@ -178,19 +178,24 @@ export const doctors: Doctor[] = [
       ne: "डा. रिचर्ड नार्जिनारी",
       bn: "ডা. রিচার্ড নার্জিনারি",
     },
-    specialty: ENT,
+    specialty: GP,
     location: CABIN,
     summary: {
-      en: "Ear, nose and throat problems, sinus issues and hearing concerns.",
-      ne: "कान, नाक र घाँटीका समस्या, साइनस र सुनाइ सम्बन्धी समस्या।",
-      bn: "কান, নাক ও গলার সমস্যা, সাইনাস ও শ্রবণ সংক্রান্ত সমস্যা।",
+      en: "General medicine, common local diseases and ear, nose & throat care.",
+      ne: "जनरल मेडिसिन, स्थानीय सामान्य रोग र कान, नाक तथा घाँटीको हेरचाह।",
+      bn: "জেনারেল মেডিসিন, স্থানীয় সাধারণ রোগ এবং কান, নাক ও গলার চিকিৎসা।",
     },
     bio: {
-      en: "Dr. Narjinary consults on ear, nose and throat conditions. From recurring tonsillitis and sinusitis to hearing loss and neck swellings. And advises when a procedure or hospital referral is needed.",
-      ne: "डा. नार्जिनारीले कान, नाक र घाँटीका रोग, बारम्बार हुने टन्सिल र साइनसदेखि सुनाइ कमी र घाँटी सुन्निनेसम्म, हेर्नुहुन्छ, र प्रक्रिया वा अस्पताल रेफर चाहिदा सल्लाह दिनुहुन्छ।",
-      bn: "ডা. নার্জিনারি কান, নাক ও গলার রোগে পরামর্শ দেন, বারবার হওয়া টনসিল ও সাইনাস থেকে শ্রবণশক্তি হ্রাস ও গলার ফোলা পর্যন্ত, এবং কখন প্রসিডিওর বা হাসপাতালে রেফার দরকার তা জানান।",
+      en: "Experienced in General Medicine and common local diseases. Dr. Narjinary consults on ear, nose and throat conditions — from recurring tonsillitis and sinusitis to hearing loss and neck swellings, and advises when a procedure or hospital referral is needed.",
+      ne: "जनरल मेडिसिन तथा स्थानीय सामान्य रोगहरूमा अनुभवी। डा. नार्जिनारीले कान, नाक र घाँटीका रोग, बारम्बार हुने टन्सिल र साइनसदेखि सुनाइ कमी र घाँटी सुन्निनेसम्म हेर्नुहुन्छ, र प्रक्रिया वा अस्पताल रेफर चाहिदा सल्लाह दिनुहुन्छ।",
+      bn: "জেনারেল মেডিসিন ও সাধারণ স্থানীয় রোগে অভিজ্ঞ। ডা. নার্জিনারি কান, নাক ও গলার সমস্যা—বারবার হওয়া টনসিল ও সাইনাস থেকে শ্রবণশক্তি হ্রাস ও গলার ফোলা পর্যন্ত পরামর্শ দেন, এবং কখন প্রসিডিওর বা হাসপাতালে রেফার দরকার তা জানান।",
     },
     skills: [
+      {
+        en: "General Medicine & common local diseases",
+        ne: "जनरल मेडिसिन र स्थानीय सामान्य रोग",
+        bn: "জেনারেল মেডিসিন ও স্থানীয় সাধারণ রোগ",
+      },
       {
         en: "Ear infections & hearing loss",
         ne: "कानको संक्रमण र सुनाइ कमी",
@@ -210,7 +215,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "abul-bashar-laskar",
-    photo: "/images/drabul-square.webp",
+    photo: "/images/doctors/drabul-square.webp",
     photoIsPlaceholder: false,
     fee: 500,
     name: { en: "Dr. Abul Bashar Laskar", ne: "डा. अबुल बशर लस्कर", bn: "ডা. আবুল বাশার লস্কর" },
@@ -250,7 +255,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "debasish-basak",
-    photo: "/images/doctor-2.jpg",
+    photo: "/images/doctors/doctor-2.webp",
     photoIsPlaceholder: true,
     fee: 600,
     name: { en: "Dr. Debasish Basak", ne: "डा. देबाशिष बसाक", bn: "ডা. দেবাশিস বসাক" },
@@ -297,7 +302,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "nayeem-ali",
-    photo: "/images/nayeem-ali.jpg",
+    photo: "/images/doctors/nayeem-ali.webp",
     photoIsPlaceholder: false,
     fee: 600,
     name: { en: "Dr. Nayeem Ali", ne: "डा. नईम अली", bn: "ডা. নঈম আলি" },
@@ -341,7 +346,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "subhamay-das",
-    photo: "/images/drsubhamay-square.webp",
+    photo: "/images/doctors/drsubhamay-square.webp",
     photoIsPlaceholder: false,
     fee: 400,
     name: { en: "Dr. Subhamay Das", ne: "डा. शुभमय दास", bn: "ডা. শুভময় দাস" },
@@ -388,7 +393,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "ajay-kumar-azad",
-    photo: "/images/doctor-ajay-azad.jpg",
+    photo: "/images/doctors/doctor-ajay-azad.webp",
     photoIsPlaceholder: true,
     fee: 500,
     name: { en: "Dr. Ajay Kumar Azad", ne: "डा. अजय कुमार आजाद", bn: "ডা. অজয় কুমার আজাদ" },
@@ -432,7 +437,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "nishant-chandra",
-    photo: "/images/doctor-nishant-chandra.jpg",
+    photo: "/images/doctors/doctor-nishant-chandra.webp",
     photoIsPlaceholder: true,
     fee: 400,
     name: { en: "Dr. Nishant Chandra", ne: "डा. निशान्त चन्द्र", bn: "ডা. নিশান্ত চন্দ্র" },
@@ -476,23 +481,28 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "saurav-sardar",
-    photo: "/images/drsourav.webp",
+    photo: "/images/doctors/drsourav.webp",
     photoIsPlaceholder: false,
     fee: 400,
     name: { en: "Dr. Saurav Sardar", ne: "डा. सौरभ सरदार", bn: "ডা. সৌরভ সর্দার" },
     specialty: GM,
     location: CABIN,
     summary: {
-      en: "Walk-in consultations, minor injuries and child & family health.",
-      ne: "वाक-इन परामर्श, साना चोटपटक र बालबालिका तथा परिवार स्वास्थ्य।",
-      bn: "ওয়াক-ইন পরামর্শ, ছোটখাটো আঘাত এবং শিশু ও পারিবারিক স্বাস্থ্য।",
+      en: "General medicine, common local diseases, minor injuries and family health.",
+      ne: "जनरल मेडिसिन, स्थानीय सामान्य रोग, साना चोटपटक र परिवार स्वास्थ्य।",
+      bn: "জেনারেল মেডিসিন, স্থানীয় সাধারণ রোগ, ছোট আঘাত ও পারিবারিক স্বাস্থ্য।",
     },
     bio: {
-      en: "Dr. Sardar covers walk-in consultations including minor injuries, childhood illnesses and routine family health, and runs the monthly free BP & sugar camp.",
-      ne: "डा. सरदारले साना चोटपटक, बालरोग र नियमित परिवार स्वास्थ्यसहित वाक-इन परामर्श हेर्नुहुन्छ, र मासिक निःशुल्क BP र सुगर शिविर चलाउनुहुन्छ।",
-      bn: "ডা. সর্দার ছোটখাটো আঘাত, শিশুরোগ ও নিয়মিত পারিবারিক স্বাস্থ্যসহ ওয়াক-ইন পরামর্শ দেন, আর মাসিক বিনামূল্যের BP ও সুগার শিবির চালান।",
+      en: "Experienced in General Medicine and common local diseases. Dr. Sardar covers walk-in consultations including minor injuries, childhood illnesses and routine family health, and runs the monthly free BP & sugar camp.",
+      ne: "जनरल मेडिसिन तथा स्थानीय सामान्य रोगहरूमा अनुभवी। डा. सरदारले साना चोटपटक, बालरोग र नियमित परिवार स्वास्थ्यसहित वाक-इन परामर्श हेर्नुहुन्छ, र मासिक निःशुल्क BP र सुगर शिविर चलाउनुहुन्छ।",
+      bn: "জেনারেল মেডিসিন ও সাধারণ স্থানীয় রোগে অভিজ্ঞ। ডা. সর্দার ছোটখাটো আঘাত, শিশুরোগ ও নিয়মিত পারিবারিক স্বাস্থ্যসহ ওয়াক-ইন পরামর্শ দেন, আর মাসিক বিনামূল্যের BP ও সুগার শিবির চালান।",
     },
     skills: [
+      {
+        en: "General Medicine & common local diseases",
+        ne: "जनरल मेडिसिन र स्थानीय सामान्य रोग",
+        bn: "জেনারেল মেডিসিন ও স্থানীয় সাধারণ রোগ",
+      },
       {
         en: "Child & family health",
         ne: "बालबालिका र परिवार स्वास्थ्य",
