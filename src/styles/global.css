@@ -1896,10 +1896,55 @@ footer.site nav a:hover {
     padding-bottom: 80px;
     text-align: left;
   }
-  .hero .eyebrow,
-  .hero-actions,
-  .hero-meta {
+  .hero .eyebrow {
     justify-content: flex-start;
+  }
+  .hero-actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 28px;
+  }
+  .hero-actions .btn {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 12px 8px;
+    font-size: clamp(0.68rem, 2.7vw, 0.78rem);
+    letter-spacing: 0.02em;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    gap: 6px;
+  }
+  .hero-actions .btn svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+  .hero-meta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: clamp(8px, 2.2vw, 16px);
+    font-size: clamp(0.65rem, 2.4vw, 0.78rem);
+    width: 100%;
+  }
+  .hero-meta li {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .hero-meta svg {
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
   }
   .hero-sub {
     margin-inline: 0;
