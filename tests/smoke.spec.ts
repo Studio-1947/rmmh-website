@@ -1,5 +1,8 @@
 import { test, expect } from "@playwright/test";
 import { doctors, upcomingSlots } from "../src/data/doctors";
+import { galleryTiles } from "../src/data/gallery";
+import { team } from "../src/data/legacy";
+import { moreServices, services } from "../src/data/services";
 
 test.describe("homepage smoke test", () => {
   test("renders the hero, nav, and core sections", async ({ page }) => {
@@ -88,7 +91,9 @@ test.describe("homepage smoke test", () => {
   test("services page lists the expanded service catalogue", async ({ page }) => {
     await page.goto("/services/");
     await expect(page.getByRole("heading", { level: 1 })).toContainText("pharmacy");
-    await expect(page.locator(".service-detail")).toHaveCount(12);
+    await expect(page.locator(".service-detail")).toHaveCount(
+      services.length + moreServices.length,
+    );
     await expect(page.locator("#cold-chain .service-points li").first()).toBeVisible();
   });
 
@@ -96,9 +101,9 @@ test.describe("homepage smoke test", () => {
     await page.goto("/about/");
     await expect(page.getByRole("heading", { level: 1 })).toContainText("Fifty years");
     await expect(page.locator(".history-line li")).toHaveCount(9);
-    await expect(page.locator(".team-card")).toHaveCount(6);
+    await expect(page.locator(".team-card")).toHaveCount(team.length);
     await expect(page.locator(".founders .legacy-portrait")).toHaveCount(2);
-    await expect(page.locator("#gallery .img-card")).toHaveCount(6);
+    await expect(page.locator("#gallery .img-card")).toHaveCount(galleryTiles.length);
   });
 
   test("health tips page carries the reels and the full wiki", async ({ page }) => {

@@ -72,17 +72,17 @@ export const cofounder = {
 export const custodian = {
   name: { en: "Dr. Subhendu Kundu", ne: "डा. शुभेन्दु कुण्डु", bn: "ডা. শুভেন্দু কুণ্ডু" } as L,
   role: {
-    en: "Runs the hall today, with a team of six",
-    ne: "आज छ जनाको टोलीसहित हल चलाउनुहुन्छ",
-    bn: "আজ ছয়জনের টিম নিয়ে হল চালান",
+    en: "Runs the hall today, with a team of five",
+    ne: "आज पाँच जनाको टोलीसहित हल चलाउनुहुन्छ",
+    bn: "আজ পাঁচজনের টিম নিয়ে হল চালান",
   } as L,
   photo: "/images/subhendu-kundu.jpg",
   photoIsPlaceholder: false,
   intro: [
     {
-      en: "The counter is now in the care of Dr. Subhendu Kundu, who grew up behind it. He has kept what his parents built, genuine medicines and honest advice, and added what a new generation in Mirik expects: WhatsApp orders, home delivery, visiting specialists and doctor videos you can watch on your phone.",
-      ne: "काउन्टर अहिले डा. शुभेन्दु कुण्डुको हेरचाहमा छ, जो यसैको पछाडि हुर्कनुभयो। उहाँले आमाबुबाले बनाएको कुरा, असली औषधि र इमानदार सल्लाह, कायम राख्नुभएको छ, र मिरिकको नयाँ पुस्ताले अपेक्षा गर्ने कुरा थप्नुभएको छ: WhatsApp अर्डर, घरमै डेलिभरी, आउने विशेषज्ञ र फोनमा हेर्न मिल्ने डाक्टर भिडियो।",
-      bn: "কাউন্টার এখন ডা. শুভেন্দু কুণ্ডুর হাতে, যিনি এর পেছনেই বড় হয়েছেন। বাবা-মায়ের গড়া জিনিস, আসল ওষুধ আর সৎ পরামর্শ, তিনি ধরে রেখেছেন, আর যোগ করেছেন মিরিকের নতুন প্রজন্ম যা চায়: WhatsApp অর্ডার, হোম ডেলিভারি, আগত বিশেষজ্ঞ আর ফোনে দেখার মতো ডাক্তারের ভিডিও।",
+      en: "The counter is now in the care of Dr. Subhendu Kundu, who grew up behind it. He has kept what his parents built, genuine medicines and honest advice, and added what a new generation in Mirik expects: WhatsApp orders, visiting specialists and doctor videos you can watch on your phone.",
+      ne: "काउन्टर अहिले डा. शुभेन्दु कुण्डुको हेरचाहमा छ, जो यसैको पछाडि हुर्कनुभयो। उहाँले आमाबुबाले बनाएको कुरा, असली औषधि र इमानदार सल्लाह, कायम राख्नुभएको छ, र मिरिकको नयाँ पुस्ताले अपेक्षा गर्ने कुरा थप्नुभएको छ: WhatsApp अर्डर, आउने विशेषज्ञ र फोनमा हेर्न मिल्ने डाक्टर भिडियो।",
+      bn: "কাউন্টার এখন ডা. শুভেন্দু কুণ্ডুর হাতে, যিনি এর পেছনেই বড় হয়েছেন। বাবা-মায়ের গড়া জিনিস, আসল ওষুধ আর সৎ পরামর্শ, তিনি ধরে রেখেছেন, আর যোগ করেছেন মিরিকের নতুন প্রজন্ম যা চায়: WhatsApp অর্ডার, আগত বিশেষজ্ঞ আর ফোনে দেখার মতো ডাক্তারের ভিডিও।",
     },
     {
       en: "It is, in the end, a family of doctors. Medicine was the dinner-table conversation in the Kundu home, and the hall is where that conversation continues with the town: the same counter, the same care, passed from one generation of doctors to the next.",
@@ -157,17 +157,6 @@ export const team: StaffMember[] = [
     photo: "/images/staff-5.jpg",
     photoIsPlaceholder: true,
   },
-  {
-    name: "[Name]",
-    role: { en: "Home delivery", ne: "घरमै डेलिभरी", bn: "হোম ডেলিভারি" },
-    note: {
-      en: "Mirik town and nearby gardens",
-      ne: "मिरिक सहर र नजिकका बगान",
-      bn: "মিরিক শহর ও কাছের বাগান",
-    },
-    photo: "/images/staff-6.jpg",
-    photoIsPlaceholder: true,
-  },
 ];
 
 export const timeline: TimelineItem[] = [
@@ -240,31 +229,31 @@ export const timeline: TimelineItem[] = [
       bn: "ডা. শুভেন্দু কুণ্ডু কাউন্টারের দায়িত্ব নেন",
     },
     text: {
-      en: "The next generation steps in, building a team of six and bringing visiting specialists to OPD Cabin 101.",
-      ne: "अर्को पुस्ता अघि आउँछ, छ जनाको टोली बनाउँदै र OPD केबिन १०१ मा आउने विशेषज्ञ ल्याउँदै।",
-      bn: "পরের প্রজন্ম এগিয়ে আসে, ছয়জনের টিম গড়ে আর OPD কেবিন ১০১-এ আগত বিশেষজ্ঞ নিয়ে আসে।",
+      en: "The next generation steps in, building a team of five and bringing visiting specialists to OPD Cabin 101.",
+      ne: "अर्को पुस्ता अघि आउँछ, पाँच जनाको टोली बनाउँदै र OPD केबिन १०१ मा आउने विशेषज्ञ ल्याउँदै।",
+      bn: "পরের প্রজন্ম এগিয়ে আসে, পাঁচজনের টিম গড়ে আর OPD কেবিন ১০১-এ আগত বিশেষজ্ঞ নিয়ে আসে।",
     },
   },
   {
     year: "c. 2016",
     title: {
-      en: "Home delivery and WhatsApp orders",
-      ne: "घरमै डेलिभरी र WhatsApp अर्डर",
-      bn: "হোম ডেলিভারি ও WhatsApp অর্ডার",
+      en: "WhatsApp orders",
+      ne: "WhatsApp अर्डर",
+      bn: "WhatsApp অর্ডার",
     },
     text: {
-      en: "A photo of the prescription is enough. Medicines start reaching homes across Mirik and the nearby gardens the same day.",
-      ne: "प्रेस्क्रिप्सनको फोटो नै पर्याप्त। औषधि मिरिक र नजिकका बगानका घरघरमा सोही दिन पुग्न थाल्छ।",
-      bn: "প্রেসক্রিপশনের একটা ছবিই যথেষ্ট। ওষুধ একই দিনে মিরিক ও কাছের বাগানের বাড়ি বাড়ি পৌঁছতে শুরু করে।",
+      en: "A photo of the prescription is enough. Medicines are kept ready at the counter for pick-up.",
+      ne: "प्रेस्क्रिप्सनको फोटो नै पर्याप्त। औषधि काउन्टरमा तयार राखिन्छ, आएर लिन मिल्छ।",
+      bn: "প্রেসক্রিপশনের একটা ছবিই যথেষ্ট। ওষুধ কাউন্টারে তৈরি রাখা হয়, এসে নিয়ে যান।",
     },
   },
   {
     year: "2020",
     title: { en: "Through the pandemic", ne: "महामारीभरि", bn: "মহামারির মধ্য দিয়ে" },
     text: {
-      en: "The counter stays open through lockdowns, delivering medicines and oxygen checks door to door across Mirik.",
-      ne: "लकडाउनभरि काउन्टर खुला रहन्छ, मिरिकभरि घरघरमा औषधि र अक्सिजन जाँच पुर्‍याउँदै।",
-      bn: "লকডাউনের মধ্যেও কাউন্টার খোলা থাকে, মিরিক জুড়ে দরজায় দরজায় ওষুধ আর অক্সিজেন চেক পৌঁছে দিয়ে।",
+      en: "The counter stays open through lockdowns, keeping medicines and oxygen checks available across Mirik.",
+      ne: "लकडाउनभरि काउन्टर खुला रहन्छ, मिरिकभरका लागि औषधि र अक्सिजन जाँच उपलब्ध राख्दै।",
+      bn: "লকডাউনের মধ্যেও কাউন্টার খোলা থাকে, মিরিকের জন্য ওষুধ আর অক্সিজেন চেক চালু রেখে।",
     },
   },
   {

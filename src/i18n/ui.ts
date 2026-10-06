@@ -28,15 +28,15 @@ export const ui = {
     "hero.where": "Krishnanagar, Mirik · Darjeeling",
     "hero.scroll": "Scroll to next section",
 
-    "trust.1": "Licensed pharmacist on duty",
-    "trust.2": "100% genuine medicines",
-    "trust.3": "Same-day home delivery",
-    "trust.4": "Nepali · Hindi · Bengali · English",
+    "trust.1": "Licensed pharmacist|on duty",
+    "trust.2": "100% genuine|medicines",
+    "trust.3": "Visiting|specialist doctors",
+    "trust.4": "Nepali · Hindi|Bengali · English",
 
     "about.founders": "The founders",
     "about.today": "Today",
     "about.team": "The team",
-    "about.teamSub": "Six people who keep the counter running, six days a week.",
+    "about.teamSub": "Five people who keep the counter running, six days a week.",
     "about.pageSub2":
       "The journey of Dr. Swapan Kumar Kundu and Pushpalata Gurung, the medical hall that grew around their work, and the team that runs it today.",
     "about.page": "Our story",
@@ -63,8 +63,8 @@ export const ui = {
     "about.f1d": "Registration No.",
     "about.f2": "Multilingual counter",
     "about.f2d": "Nepali, Hindi, Bengali & English spoken",
-    "about.f3": "Local delivery",
-    "about.f3d": "Free within Mirik",
+    "about.f3": "Visiting doctors",
+    "about.f3d": "Consultations at OPD Cabin 101",
     "about.f4": "Open Monday to Saturday",
     "about.f4d": "See hours in the Contact section",
     "about.alt": "A pharmacist in a white coat reaching for a medicine box on a shelf",
@@ -77,9 +77,9 @@ export const ui = {
     "servicesPage.title": "Services",
     "servicesPage.h1": "Everything a hill-town pharmacy should do",
     "servicesPage.sub":
-      "From daily prescriptions to cold-chain insulin, home delivery and doctor consultations, here is the full list of what Radhamadhav Medical Hall offers in Mirik, Darjeeling.",
+      "From daily prescriptions to cold-chain insulin and doctor consultations, here is the full list of what Radhamadhav Medical Hall offers in Mirik, Darjeeling.",
     "servicesPage.meta":
-      "Full list of services at Radhamadhav Medical Hall, Mirik: prescription and OTC medicines, health devices, home delivery, health camps, doctor consultations, insulin storage, first aid and more.",
+      "Full list of services at Radhamadhav Medical Hall, Mirik: prescription and OTC medicines, health devices, health camps, doctor consultations, insulin storage, first aid and more.",
     "servicesPage.jump": "Jump to a service",
     "servicesPage.ask": "Ask about this",
     "servicesPage.confirm": "Availability may vary. Call the counter to confirm.",
@@ -207,7 +207,7 @@ export const ui = {
     "cta.eyebrow": "Here when you need us",
     "cta.title": "Out of a medicine? Just call.",
     "cta.text":
-      "We'll check stock, suggest a genuine alternative if needed, and send it over the same day within Mirik.",
+      "We'll check stock, suggest a genuine alternative if needed, and keep it ready for you at the counter.",
     "cta.call": "Call us now",
     "cta.whatsapp": "WhatsApp us",
 
@@ -251,15 +251,15 @@ export const ui = {
     "hero.where": "कृष्णनगर, मिरिक · दार्जिलिङ",
     "hero.scroll": "अर्को खण्डमा जानुहोस्",
 
-    "trust.1": "लाइसेन्स प्राप्त फार्मासिस्ट उपलब्ध",
-    "trust.2": "१००% असली औषधि",
-    "trust.3": "सोही दिन घरमै डेलिभरी",
-    "trust.4": "नेपाली · हिन्दी · बंगाली · English",
+    "trust.1": "लाइसेन्स प्राप्त|फार्मासिस्ट उपलब्ध",
+    "trust.2": "१००% असली|औषधि",
+    "trust.3": "आउने|विशेषज्ञ डाक्टर",
+    "trust.4": "नेपाली · हिन्दी|बंगाली · English",
 
     "about.founders": "संस्थापकहरू",
     "about.today": "आज",
     "about.team": "टोली",
-    "about.teamSub": "हप्ताको छ दिन काउन्टर चलाइराख्ने छ जना।",
+    "about.teamSub": "हप्ताको छ दिन काउन्टर चलाइराख्ने पाँच जना।",
     "about.pageSub2":
       "डा. स्वपन कुमार कुण्डु र पुष्पलता गुरुङको यात्रा, उहाँहरूको काम वरिपरि हुर्केको मेडिकल हल, र आज यसलाई चलाउने टोली।",
     "about.page": "हाम्रो कथा",
@@ -285,8 +285,8 @@ export const ui = {
     "about.f1d": "दर्ता नं.",
     "about.f2": "बहुभाषी काउन्टर",
     "about.f2d": "नेपाली, हिन्दी, बंगाली र अंग्रेजी बोलिन्छ",
-    "about.f3": "स्थानीय डेलिभरी",
-    "about.f3d": "मिरिकभित्र निःशुल्क",
+    "about.f3": "आउने डाक्टरहरू",
+    "about.f3d": "OPD केबिन १०१ मा परामर्श",
     "about.f4": "सोमबारदेखि शनिबारसम्म खुला",
     "about.f4d": "समय तल सम्पर्क खण्डमा हेर्नुहोस्",
     "about.alt": "सेतो कोट लगाएकी फार्मासिस्ट दराजबाट औषधिको बट्टा निकाल्दै",
@@ -299,9 +299,9 @@ export const ui = {
     "servicesPage.title": "सेवाहरू",
     "servicesPage.h1": "पहाडी सहरको फार्मेसीले गर्नुपर्ने सबै कुरा",
     "servicesPage.sub":
-      "दैनिक प्रेस्क्रिप्सनदेखि कोल्ड-चेन इन्सुलिन, घरमै डेलिभरी र डाक्टर परामर्शसम्म, मिरिक, दार्जिलिङमा राधामाधव मेडिकल हलले दिने सेवाहरूको पूरा सूची।",
+      "दैनिक प्रेस्क्रिप्सनदेखि कोल्ड-चेन इन्सुलिन र डाक्टर परामर्शसम्म, मिरिक, दार्जिलिङमा राधामाधव मेडिकल हलले दिने सेवाहरूको पूरा सूची।",
     "servicesPage.meta":
-      "राधामाधव मेडिकल हल, मिरिकका सेवाहरूको पूरा सूची: प्रेस्क्रिप्सन र OTC औषधि, स्वास्थ्य उपकरण, घरमै डेलिभरी, स्वास्थ्य शिविर, डाक्टर परामर्श, इन्सुलिन भण्डारण, प्राथमिक उपचार र थप।",
+      "राधामाधव मेडिकल हल, मिरिकका सेवाहरूको पूरा सूची: प्रेस्क्रिप्सन र OTC औषधि, स्वास्थ्य उपकरण, स्वास्थ्य शिविर, डाक्टर परामर्श, इन्सुलिन भण्डारण, प्राथमिक उपचार र थप।",
     "servicesPage.jump": "सेवामा जानुहोस्",
     "servicesPage.ask": "यसबारे सोध्नुहोस्",
     "servicesPage.confirm": "उपलब्धता फरक हुन सक्छ। पुष्टि गर्न काउन्टरमा फोन गर्नुहोस्।",
@@ -427,7 +427,7 @@ export const ui = {
 
     "cta.eyebrow": "चाहिने बेला हामी यहीँ छौं",
     "cta.title": "औषधि सकियो? फोन मात्र गर्नुहोस्।",
-    "cta.text": "हामी स्टक जाँच्छौं, चाहिए असली विकल्प सुझाउँछौं, र मिरिकभित्र सोही दिन पठाउँछौं।",
+    "cta.text": "हामी स्टक जाँच्छौं, चाहिए असली विकल्प सुझाउँछौं, र काउन्टरमा तयार राख्छौं।",
     "cta.call": "अहिले फोन गर्नुहोस्",
     "cta.whatsapp": "WhatsApp गर्नुहोस्",
 
@@ -471,15 +471,15 @@ export const ui = {
     "hero.where": "কৃষ্ণনগর, মিরিক · দার্জিলিং",
     "hero.scroll": "পরের অংশে যান",
 
-    "trust.1": "লাইসেন্সপ্রাপ্ত ফার্মাসিস্ট উপস্থিত",
-    "trust.2": "১০০% আসল ওষুধ",
-    "trust.3": "একই দিনে হোম ডেলিভারি",
-    "trust.4": "নেপালি · হিন্দি · বাংলা · English",
+    "trust.1": "লাইসেন্সপ্রাপ্ত|ফার্মাসিস্ট উপস্থিত",
+    "trust.2": "১০০% আসল|ওষুধ",
+    "trust.3": "আগত|বিশেষজ্ঞ ডাক্তার",
+    "trust.4": "নেপালি · হিন্দি|বাংলা · English",
 
     "about.founders": "প্রতিষ্ঠাতারা",
     "about.today": "আজ",
     "about.team": "টিম",
-    "about.teamSub": "সপ্তাহে ছয় দিন কাউন্টার সচল রাখেন যে ছয়জন।",
+    "about.teamSub": "সপ্তাহে ছয় দিন কাউন্টার সচল রাখেন যে পাঁচজন।",
     "about.pageSub2":
       "ডা. স্বপন কুমার কুণ্ডু ও পুষ্পলতা গুরুংয়ের যাত্রা, তাঁদের কাজ ঘিরে গড়ে ওঠা মেডিক্যাল হল, আর আজ যে টিম এটি চালায়।",
     "about.page": "আমাদের গল্প",
@@ -506,8 +506,8 @@ export const ui = {
     "about.f1d": "রেজিস্ট্রেশন নং",
     "about.f2": "বহুভাষিক কাউন্টার",
     "about.f2d": "নেপালি, হিন্দি, বাংলা ও ইংরেজি বলা হয়",
-    "about.f3": "স্থানীয় ডেলিভারি",
-    "about.f3d": "মিরিকের মধ্যে বিনামূল্যে",
+    "about.f3": "আগত ডাক্তার",
+    "about.f3d": "OPD কেবিন ১০১-এ পরামর্শ",
     "about.f4": "সোম থেকে শনিবার খোলা",
     "about.f4d": "সময় নিচে যোগাযোগ অংশে দেখুন",
     "about.alt": "সাদা কোট পরা একজন ফার্মাসিস্ট তাক থেকে ওষুধের বাক্স নিচ্ছেন",
@@ -520,9 +520,9 @@ export const ui = {
     "servicesPage.title": "পরিষেবা",
     "servicesPage.h1": "পাহাড়ি শহরের ফার্মেসির যা যা করা উচিত",
     "servicesPage.sub":
-      "দৈনিক প্রেসক্রিপশন থেকে কোল্ড-চেইন ইনসুলিন, হোম ডেলিভারি ও ডাক্তার পরামর্শ, মিরিক, দার্জিলিংয়ে রাধামাধব মেডিক্যাল হল যা যা দেয় তার পুরো তালিকা।",
+      "দৈনিক প্রেসক্রিপশন থেকে কোল্ড-চেইন ইনসুলিন ও ডাক্তার পরামর্শ, মিরিক, দার্জিলিংয়ে রাধামাধব মেডিক্যাল হল যা যা দেয় তার পুরো তালিকা।",
     "servicesPage.meta":
-      "রাধামাধব মেডিক্যাল হল, মিরিকের পরিষেবার পুরো তালিকা: প্রেসক্রিপশন ও OTC ওষুধ, স্বাস্থ্য সরঞ্জাম, হোম ডেলিভারি, স্বাস্থ্য শিবির, ডাক্তার পরামর্শ, ইনসুলিন সংরক্ষণ, প্রাথমিক চিকিৎসা ও আরও।",
+      "রাধামাধব মেডিক্যাল হল, মিরিকের পরিষেবার পুরো তালিকা: প্রেসক্রিপশন ও OTC ওষুধ, স্বাস্থ্য সরঞ্জাম, স্বাস্থ্য শিবির, ডাক্তার পরামর্শ, ইনসুলিন সংরক্ষণ, প্রাথমিক চিকিৎসা ও আরও।",
     "servicesPage.jump": "পরিষেবায় যান",
     "servicesPage.ask": "এ বিষয়ে জিজ্ঞেস করুন",
     "servicesPage.confirm": "উপলব্ধতা বদলাতে পারে। নিশ্চিত করতে কাউন্টারে কল করুন।",
@@ -647,7 +647,7 @@ export const ui = {
 
     "cta.eyebrow": "দরকারে আমরা আছি",
     "cta.title": "ওষুধ শেষ? শুধু কল করুন।",
-    "cta.text": "আমরা স্টক দেখে নেব, দরকারে আসল বিকল্প বলব, আর মিরিকের মধ্যে একই দিনে পাঠিয়ে দেব।",
+    "cta.text": "আমরা স্টক দেখে নেব, দরকারে আসল বিকল্প বলব, আর কাউন্টারে তৈরি রেখে দেব।",
     "cta.call": "এখনই কল করুন",
     "cta.whatsapp": "WhatsApp করুন",
 

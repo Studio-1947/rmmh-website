@@ -44,17 +44,6 @@ export const galleryTiles: GalleryTile[] = [
     icon: "i-heart",
   },
   {
-    title: { en: "Home delivery", ne: "घरमै डेलिभरी", bn: "হোম ডেলিভারি" },
-    caption: {
-      en: "Same-day delivery within the neighbourhood.",
-      ne: "छिमेकभित्र सोही दिन डेलिभरी।",
-      bn: "পাড়ার মধ্যে একই দিনে ডেলিভারি।",
-    },
-    src: "/images/delivery-scooter.jpg",
-    alt: "A delivery rider on a scooter",
-    icon: "i-truck",
-  },
-  {
     title: { en: "Our team", ne: "हाम्रो टोली", bn: "আমাদের টিম" },
     caption: {
       en: "Familiar faces who know your name and your family's history.",

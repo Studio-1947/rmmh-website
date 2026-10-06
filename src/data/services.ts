@@ -105,36 +105,6 @@ export const services: Service[] = [
     ],
   },
   {
-    slug: "home-delivery",
-    icon: "i-truck",
-    title: { en: "Home delivery", ne: "घरमै डेलिभरी", bn: "হোম ডেলিভারি" },
-    description: {
-      en: "Can't make it to the counter? We deliver within Mirik, usually the same day.",
-      ne: "काउन्टरसम्म आउन सक्नुहुन्न? हामी मिरिकभित्र प्रायः सोही दिन पुर्‍याउँछौं।",
-      bn: "কাউন্টারে আসতে পারছেন না? মিরিকের মধ্যে আমরা সাধারণত একই দিনে পৌঁছে দিই।",
-    },
-    image: "/images/delivery-scooter.jpg",
-    imageAlt: "A rider on a scooter with a delivery box",
-    tag: { en: "Same day", ne: "सोही दिन", bn: "একই দিনে" },
-    points: [
-      {
-        en: "Same-day delivery within Mirik town for orders placed before evening.",
-        ne: "साँझअघि अर्डर गरेमा मिरिक सहरभित्र सोही दिन डेलिभरी।",
-        bn: "সন্ধ্যার আগে অর্ডার করলে মিরিক শহরের মধ্যে একই দিনে ডেলিভারি।",
-      },
-      {
-        en: "Delivery to nearby tea gardens and villages on a fixed schedule. Ask the counter for your area.",
-        ne: "नजिकका चिया बगान र गाउँमा निश्चित तालिकामा डेलिभरी। आफ्नो क्षेत्रका लागि काउन्टरमा सोध्नुहोस्।",
-        bn: "কাছের চা-বাগান ও গ্রামে নির্দিষ্ট সময়সূচিতে ডেলিভারি। আপনার এলাকার জন্য কাউন্টারে জিজ্ঞেস করুন।",
-      },
-      {
-        en: "Order on WhatsApp with a prescription photo. Pay on delivery.",
-        ne: "प्रेस्क्रिप्सनको फोटोसहित WhatsApp मा अर्डर गर्नुहोस्। डेलिभरीमा भुक्तानी।",
-        bn: "প্রেসক্রিপশনের ছবিসহ WhatsApp-এ অর্ডার করুন। ডেলিভারিতে পেমেন্ট।",
-      },
-    ],
-  },
-  {
     slug: "health-camps",
     icon: "i-stethoscope",
     title: {
@@ -261,11 +231,6 @@ export const moreServices: Service[] = [
         en: "WhatsApp reminder a few days before your stock ends.",
         ne: "स्टक सकिनु केही दिनअघि WhatsApp सम्झना।",
         bn: "স্টক শেষ হওয়ার কয়েক দিন আগে WhatsApp রিমাইন্ডার।",
-      },
-      {
-        en: "Home delivery for elderly patients in Mirik.",
-        ne: "मिरिकका वृद्ध बिरामीका लागि घरमै डेलिभरी।",
-        bn: "মিরিকের বয়স্ক রোগীদের জন্য হোম ডেলিভারি।",
       },
     ],
   },
