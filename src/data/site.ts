@@ -31,5 +31,5 @@ export const site = {
       "https://search.google.com/local/writereview?placeid=ChIJOyh_CzwZ5DkRh4qZGXboV-A",
   },
 
-  registrationNo: "WB/DJL/BIO/R/673796",
+  licenceNos: ["WB/DJL/BIO/R/673796", "WB/DJL/BO/R/673796"],
 } as const;

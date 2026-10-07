@@ -4,7 +4,6 @@ import { getLang, useT } from "../i18n";
 
 const lang = getLang(Astro.currentLocale);
 const t = useT(lang);
-// Labels carry a "|" where they break, so every card shows exactly two lines.
 const items = [
   { icon: "i-shield", label: t("trust.1") },
   { icon: "i-pill", label: t("trust.2") },
@@ -20,11 +19,7 @@ const items = [
         items.map((item, i) => (
           <li data-reveal style={`--reveal-delay:${i * 90}ms`}>
             <Icon name={item.icon} />
-            <span class="trust-label">
-              {item.label.split("|").map((line) => (
-                <span>{line}</span>
-              ))}
-            </span>
+            <span class="trust-label">{item.label}</span>
           </li>
         ))
       }

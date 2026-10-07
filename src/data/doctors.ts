@@ -123,7 +123,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "punam-sarkar",
-    photo: "/images/doctors/drpunam-square.webp",
+    photo: "/images/doctors/drpunam-square.png",
     photoIsPlaceholder: false,
     fee: 500,
     name: { en: "Dr. Punam Sarkar", ne: "डा. पुनम सरकार", bn: "ডা. পুনম সরকার" },
@@ -170,7 +170,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "richard-narjinary",
-    photo: "/images/doctors/drrichard-square.webp",
+    photo: "/images/doctors/drrichard-square.png",
     photoIsPlaceholder: false,
     fee: 600,
     name: {
@@ -215,7 +215,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "abul-bashar-laskar",
-    photo: "/images/doctors/drabul-square.webp",
+    photo: "/images/doctors/drabul-square.png",
     photoIsPlaceholder: false,
     fee: 500,
     name: { en: "Dr. Abul Bashar Laskar", ne: "डा. अबुल बशर लस्कर", bn: "ডা. আবুল বাশার লস্কর" },
@@ -346,7 +346,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "subhamay-das",
-    photo: "/images/doctors/drsubhamay-square.webp",
+    photo: "/images/doctors/drsubhamay-square.png",
     photoIsPlaceholder: false,
     fee: 400,
     name: { en: "Dr. Subhamay Das", ne: "डा. शुभमय दास", bn: "ডা. শুভময় দাস" },
@@ -481,7 +481,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "saurav-sardar",
-    photo: "/images/doctors/drsourav.webp",
+    photo: "/images/doctors/drsourav.png",
     photoIsPlaceholder: false,
     fee: 400,
     name: { en: "Dr. Saurav Sardar", ne: "डा. सौरभ सरदार", bn: "ডা. সৌরভ সর্দার" },

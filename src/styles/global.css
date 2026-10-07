@@ -774,17 +774,18 @@ section {
 }
 .trust ul {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  /* content-sized columns: each pill is as wide as its one-line label needs */
+  grid-template-columns: repeat(4, auto);
+  gap: 12px;
 }
 .trust li {
   display: flex;
   align-items: center;
-  gap: 14px;
-  font-size: 0.92rem;
+  gap: 10px;
+  font-size: clamp(0.78rem, 1.2vw, 0.92rem);
   font-weight: 500;
   color: var(--ink-soft);
-  padding: 18px 20px;
+  padding: 18px 16px;
   border-radius: var(--radius-m);
   background: var(--surface);
   border: 1px solid var(--line);
@@ -798,9 +799,6 @@ section {
 }
 .trust-label {
   line-height: 1.35;
-}
-.trust-label span {
-  display: block;
   white-space: nowrap;
 }
 
@@ -1804,6 +1802,9 @@ footer.site nav a:hover {
   .trust ul {
     grid-template-columns: repeat(2, 1fr);
   }
+  .trust li {
+    font-size: 0.92rem;
+  }
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -1887,6 +1888,10 @@ footer.site nav a:hover {
   }
   .trust ul {
     grid-template-columns: 1fr;
+  }
+  /* very narrow phones: let the longest label wrap rather than overflow */
+  .trust-label {
+    white-space: normal;
   }
   section {
     padding-block: 72px;

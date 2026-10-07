@@ -7,10 +7,14 @@ import { getLang, localePath, useT } from "../i18n";
 const lang = getLang(Astro.currentLocale);
 const t = useT(lang);
 const facts = [
-  { icon: "i-shield", title: t("about.f1"), detail: `${t("about.f1d")} ${site.registrationNo}` },
-  { icon: "i-users", title: t("about.f2"), detail: t("about.f2d") },
-  { icon: "i-stethoscope", title: t("about.f3"), detail: t("about.f3d") },
-  { icon: "i-clock", title: t("about.f4"), detail: t("about.f4d") },
+  {
+    icon: "i-shield",
+    title: t("about.f1"),
+    details: site.licenceNos.map((no, i) => (i === 0 ? `${t("about.f1d")} ${no}` : no)),
+  },
+  { icon: "i-users", title: t("about.f2"), details: [t("about.f2d")] },
+  { icon: "i-stethoscope", title: t("about.f3"), details: [t("about.f3d")] },
+  { icon: "i-clock", title: t("about.f4"), details: [t("about.f4d")] },
 ];
 ---
 
@@ -35,7 +39,9 @@ const facts = [
               <Icon name={fact.icon} />
               <div>
                 <strong>{fact.title}</strong>
-                <span>{fact.detail}</span>
+                {fact.details.map((detail) => (
+                  <span style="display: block;">{detail}</span>
+                ))}
               </div>
             </li>
           ))
@@ -43,7 +49,7 @@ const facts = [
       </ul>
     </div>
     <Medallion
-      src="/images/tika2.png"
+      src="/images/pharmacist-shelf.jpg"
       alt={t("about.alt")}
       badgeIcon="i-mortar"
       secondIcon="i-shield"
