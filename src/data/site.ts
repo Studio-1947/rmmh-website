@@ -12,7 +12,7 @@ export const site = {
   whatsappDisplay: "+91 70636 57635",
   whatsappHref:
     "https://wa.me/919434431319?text=Namaste%2C%20I%20have%20a%20query%20for%20Radhamadhav%20Medical%20Hall.",
-  email: "hello@radhamadhavmedicalhall.sample",
+  email: "radhamadhavmirik@gmail.com",
 
   // Address lines & hours are translated  see src/i18n/ui.ts ("address.*", "hours.*").
   locality: "Mirik",

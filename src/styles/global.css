@@ -3243,6 +3243,11 @@ html[data-lang="bn"] .hero h1 {
   gap: 28px;
   align-items: start;
 }
+.founder-col {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
 .founders .legacy-portrait {
   width: 100%;
   aspect-ratio: 3 / 4;

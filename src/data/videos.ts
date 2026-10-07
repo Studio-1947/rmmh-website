@@ -10,7 +10,7 @@ export interface DoctorVideo {
   /** youtube: a Shorts/watch URL · instagram: the reel URL · mp4: a file in public/videos · none: poster only */
   platform: VideoPlatform;
   src: string;
-  poster: string;
+  poster?: string;
   /** Shown while the clip is a stand-in. Flip to false once `src` is the real reel. */
   isPlaceholder: boolean;
 }
@@ -33,7 +33,7 @@ export const doctorVideos: DoctorVideo[] = [
     },
     platform: "none",
     src: "",
-    poster: "/images/doctors/drabul.webp",
+    poster: "/images/doctors/drabul-square.png",
     isPlaceholder: true,
   },
   {
@@ -50,7 +50,7 @@ export const doctorVideos: DoctorVideo[] = [
     },
     platform: "none",
     src: "",
-    poster: "/images/doctors/drrichard.webp",
+    poster: "/images/doctors/drrichard-square.png",
     isPlaceholder: true,
   },
   {
@@ -84,7 +84,7 @@ export const doctorVideos: DoctorVideo[] = [
     },
     platform: "none",
     src: "",
-    poster: "/images/doctors/drsourav.webp",
+    poster: "/images/doctors/drsourav.png",
     isPlaceholder: true,
   },
 ];

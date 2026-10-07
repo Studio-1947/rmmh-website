@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Icon from "../components/Icon.astro";
-import { founder, cofounder, custodian, team, timeline } from "../data/legacy";
+import { founder, cofounder, cofounder1, custodian, team, timeline } from "../data/legacy";
 import { galleryTiles } from "../data/gallery";
 import { site } from "../data/site";
 import { getLang, l, useT } from "../i18n";
@@ -33,26 +33,47 @@ const t = useT(lang);
         <p class="eyebrow">{t("about.founders")}</p>
       </div>
       <div class="founders">
-        <div class="legacy-portrait" data-reveal="scale">
-          <img
-            src={founder.photo}
-            alt={l(founder.name, lang)}
-            loading="lazy"
-            decoding="async"
-            width="720"
-            height="900"
-          />
-          {
-            founder.photoIsPlaceholder && (
-              <span class="tbc photo-tag">{t("about.samplePhoto")}</span>
-            )
-          }
-          <div class="legacy-caption">
-            <strong>{l(founder.name, lang)}</strong>
-            <span>{l(founder.role, lang)}</span>
+        <div class="founder-col">
+          <div class="legacy-portrait" data-reveal="scale">
+            <img
+              src={founder.photo}
+              alt={l(founder.name, lang)}
+              loading="lazy"
+              decoding="async"
+              width="720"
+              height="900"
+            />
+            {
+              founder.photoIsPlaceholder && (
+                <span class="tbc photo-tag">{t("about.samplePhoto")}</span>
+              )
+            }
+            <div class="legacy-caption">
+              <strong>{l(founder.name, lang)}</strong>
+              <span>{l(founder.role, lang)}</span>
+            </div>
+          </div>
+          <div class="legacy-portrait" data-reveal="scale" style="--reveal-delay:120ms">
+            <img
+              src={cofounder1.photo}
+              alt={l(cofounder1.name, lang)}
+              loading="lazy"
+              decoding="async"
+              width="720"
+              height="900"
+            />
+            {
+              cofounder1.photoIsPlaceholder && (
+                <span class="tbc photo-tag">{t("about.samplePhoto")}</span>
+              )
+            }
+            <div class="legacy-caption">
+              <strong>{l(cofounder1.name, lang)}</strong>
+              <span>{l(cofounder1.role, lang)}</span>
+            </div>
           </div>
         </div>
-        <div class="legacy-portrait" data-reveal="scale" style="--reveal-delay:120ms">
+        <div class="legacy-portrait" data-reveal="scale" style="--reveal-delay:180ms">
           <img
             src={cofounder.photo}
             alt={l(cofounder.name, lang)}
@@ -74,6 +95,7 @@ const t = useT(lang);
         <div class="story-copy" data-reveal="right">
           {founder.intro.map((p) => <p>{l(p, lang)}</p>)}
           {cofounder.intro.map((p) => <p>{l(p, lang)}</p>)}
+          {cofounder1.intro.map((p) => <p>{l(p, lang)}</p>)}
           <blockquote class="legacy-quote">“{l(founder.quote, lang)}”</blockquote>
         </div>
       </div>

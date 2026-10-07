@@ -69,6 +69,29 @@ export const cofounder = {
   ] as L[],
 };
 
+export const cofounder1 = {
+  name: { en: "Tika Chettri", ne: "टीका छेत्री", bn: "টিকা ছেত্রী" } as L,
+  role: {
+    en: "Co-founder & Family Relative",
+    ne: "सह-संस्थापक तथा पारिवारिक आफन्त",
+    bn: "সহ-প্রতিষ্ঠাতা ও পারিবারিক আত্মীয়",
+  } as L,
+  photo: "/images/tika1.png",
+  photoIsPlaceholder: false,
+  intro: [
+    {
+      en: "A professional nurse and a close relative of the Kundu family, Tika Chettri has been a guiding presence in Radha Madhav's journey since its founding days. While her independent nursing service is practiced outside Radha Madhav Medical Hall, her healthcare experience and family ties helped shape the clinic's spirit of attentive, caring service.",
+      ne: "एक पेशेवर नर्स तथा कुण्डु परिवारकी नजिककी आफन्त, टीका छेत्री यसको स्थापना कालदेखि नै राधा माधवको यात्रामा एक मार्गदर्शकका रूपमा रहनुभएको छ। उहाँको व्यावसायिक नर्सिङ सेवा राधा माधव मेडिकल हलभन्दा बाहिर स्वतन्त्र रूपमा रहे तापनि, उहाँको स्वास्थ्यसम्बन्धी दृष्टिकोण र पारिवारिक साथले संस्थाको सेवाभावलाई दिशानिर्देश गर्न मद्दत पुर्यायो।",
+      bn: "পেশাদার নার্স এবং কুণ্ডু পরিবারের ঘনিষ্ঠ আত্মীয়, টিকা ছেত্রী প্রতিষ্ঠার সূচনালগ্ন থেকেই রাধা মাধবের পথচলার অন্যতম অনুপ্রেরণা। যদিও তাঁর নিজস্ব নার্সিং কর্মজীবন রাধা মাধব মেডিক্যাল হলের বাইরে পরিচালিত, তবুও তাঁর চিকিৎসা সংক্রান্ত দৃষ্টিভঙ্গি ও পারিবারিক ঘনিষ্ঠতা হলের সেবামূলক আদর্শকে আরও সমৃদ্ধ করেছে।",
+    },
+    {
+      en: "As a co-founder rooted in family trust, she stood firmly beside Dr. Swapan Kumar Kundu and Pushpalata Gurung during the hall's formative years in Mirik, offering enduring encouragement and vital support to their shared mission.",
+      ne: "पारिवारिक विश्वासमा आधारित सह-संस्थापकका रूपमा, उहाँले मिरिकमा हल स्थापनाका सुरुवाती वर्षहरूमा डा. स्वपन कुमार कुण्डु र पुष्पलता गुरुङलाई निरन्तर हौसला र महत्त्वपूर्ण सहयोग प्रदान गर्नुभयो।",
+      bn: "পারিবারিক আস্থার ভিত্তিতে একজন সহ-প্রতিষ্ঠাতা হিসেবে, তিনি মিরিকে হলের শুরুর দিনগুলোতে ডা. স্বপন কুমার কুণ্ডু ও পুষ্পলতা গুরুংয়ের পাশে থেকে অবিচল উৎসাহ ও নির্ভরতা জুগিয়েছেন।",
+    },
+  ] as L[],
+};
+
 export const custodian = {
   name: { en: "Dr. Subhendu Kundu", ne: "डा. शुभेन्दु कुण्डु", bn: "ডা. শুভেন্দু কুণ্ডু" } as L,
   role: {

@@ -37,7 +37,13 @@ const bySlug = new Map(doctors.map((d) => [d.slug, d]));
                     />
                   )}
                   {v.platform === "mp4" && (
-                    <video src={v.src} poster={v.poster} controls playsinline preload="none" />
+                    <video
+                      src={v.src}
+                      poster={v.poster || doc?.photo}
+                      controls
+                      playsinline
+                      preload="none"
+                    />
                   )}
                   {(v.platform === "instagram" || v.platform === "none") && (
                     <a
@@ -52,7 +58,7 @@ const bySlug = new Map(doctors.map((d) => [d.slug, d]));
                       aria-label={l(v.title, lang)}
                     >
                       <img
-                        src={v.poster}
+                        src={v.poster || doc?.photo}
                         alt=""
                         loading="lazy"
                         decoding="async"

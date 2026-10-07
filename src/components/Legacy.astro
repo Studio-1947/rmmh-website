@@ -1,6 +1,6 @@
 ---
 import Icon from "./Icon.astro";
-import { founder, cofounder, custodian, timeline } from "../data/legacy";
+import { founder, cofounder, cofounder1, custodian, timeline } from "../data/legacy";
 import { getLang, l, localePath, useT } from "../i18n";
 
 const lang = getLang(Astro.currentLocale);
@@ -24,7 +24,7 @@ const last = timeline[timeline.length - 1];
         <div class="legacy-caption">
           <strong>{l(founder.name, lang)}</strong>
           <span>{l(founder.role, lang)}</span>
-          <small>+ {l(cofounder.name, lang)}, {l(cofounder.role, lang).split(".")[0]}</small>
+          <small>+ {l(cofounder.name, lang)} & {l(cofounder1.name, lang)}</small>
         </div>
       </div>
       <div class="legacy-float legacy-float-tr">
