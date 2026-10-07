@@ -102,7 +102,7 @@ test.describe("homepage smoke test", () => {
     await expect(page.getByRole("heading", { level: 1 })).toContainText("Fifty years");
     await expect(page.locator(".history-line li")).toHaveCount(9);
     await expect(page.locator(".team-card")).toHaveCount(team.length);
-    await expect(page.locator(".founders .legacy-portrait")).toHaveCount(2);
+    await expect(page.locator(".founders .legacy-portrait")).toHaveCount(3);
     await expect(page.locator("#gallery .img-card")).toHaveCount(galleryTiles.length);
   });
 
